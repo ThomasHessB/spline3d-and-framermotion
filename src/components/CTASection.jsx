@@ -34,7 +34,7 @@ export default function CTASection() {
         >
           Join us and transform your experience!
         </motion.p>
-        <nav className="hidden md:block ">
+        <nav className="">
           {/* Desktop Navigation Links */}
           <a href="https://wa.me/5547996235145">
             <motion.i
