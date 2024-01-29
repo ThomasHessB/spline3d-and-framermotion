@@ -5,7 +5,7 @@ import { FaWhatsapp, FaInstagram } from "react-icons/fa";
 
 export default function CTASection() {
   return (
-    <div className="flex items-center justify-center h-screen overflow-hidden bg-white">
+    <div className="flex items-center justify-center h-screen overflow-hidden bg-black border-8 border-black">
       <div className="flex justify-center items-center">
         <Spline
           scene="https://prod.spline.design/tLbC4FeMol7acK30/scene.splinecode"
@@ -13,16 +13,13 @@ export default function CTASection() {
         />
       </div>
       <motion.div
-        className="relative top-0 left-0 w-full h-full z-10 flex flex-col items-center justify-center text-center p-4 bg-opacity-50"
-        style={{
-          backgroundImage: "url(https://i.imgur.com/w1Kqze1.jpg)",
-        }}
+        className="absolute flex flex-col items-center justify-center text-center p-4 bg-opacity-50"
         whileHover={{ scale: 0.94, transition: { duration: 0.3 } }}
         transition={{ type: "spring", stiffness: 800, damping: 8 }}
         whileTap={{ scale: 1.04 }}
       >
         <motion.h1
-          className="text-4xl font-bold text-white bg-black rounded-full"
+          className="text-4xl font-bold text-white "
           whileHover={{ scale: 0.9, transition: { duration: 0.3 } }}
           transition={{ type: "spring", stiffness: 400, damping: 10 }}
           whileTap={{ scale: 1.05 }}
@@ -30,7 +27,7 @@ export default function CTASection() {
           Ready to make a change?
         </motion.h1>
         <motion.p
-          className="text-xl text-white m-4 bg-black rounded-full"
+          className="text-xl text-white m-4 "
           whileHover={{ scale: 0.9, transition: { duration: 0.3 } }}
           transition={{ type: "spring", stiffness: 400, damping: 10 }}
           whileTap={{ scale: 1.05 }}

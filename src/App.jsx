@@ -19,8 +19,8 @@ function App() {
       <SecondHero />
       <TestimonialText />
       <TestimonialsSection />
-      <CTASection />
       <EndHero />
+      <CTASection />
       <Footer />
     </>
   );
